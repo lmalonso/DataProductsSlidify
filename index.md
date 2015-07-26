@@ -33,6 +33,7 @@ knit        : slidify::knit2slides
 - Use the Rotation Angle of each link to determine the position
 - Example
 
+
 ```r
 L1=10;L2=5;angle_1=180;angle_2=90;
 y<-L1*sin((angle_1)*pi/180)+L2*sin((angle_1+angle_2)*pi/180)
@@ -44,7 +45,14 @@ round(c(x,y),3)
 ## [1] -10  -5
 ```
 
+Use the SCARA app to prove the answer in this slide: https://lmalonso.shinyapps.io/ShinyApp1
+
 ---
 
+## Credits
 
-
+- R. Caffo, J. Leek, and R. Peng for the Data Science Specialization
+- Ramnath Vaidyanathan for Slidify
+- RStudio team
+- R Development Core Team
+- R Packages developers
